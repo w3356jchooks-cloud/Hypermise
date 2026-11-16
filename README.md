@@ -62,7 +62,3 @@ Only publish add-on files that have been tested against the stated Minecraft Bed
 
 No license has been specified yet. All rights remain with their respective authors unless a license is added.
 
-
-## Migration note
-
-The text source has been imported from the Lovable project. Two binary assets were not included in this transfer: `src/assets/hero-voxel.jpg` and `public/favicon.ico`. The homepage imports the hero image, so the original image must be added at that path before the repository can be considered a complete, build-ready mirror. The favicon can be restored separately.
