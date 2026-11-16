@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight, TriangleAlert } from "lucide-react";
 
-import heroImage from "@/assets/hero-voxel.jpg";
+import heroImage from "@/assets/hero-voxel.svg";
 import { DownloadCard } from "@/components/site/DownloadCard";
 import { FaqList } from "@/components/site/FaqList";
 import { GuaranteeSection } from "@/components/site/GuaranteeSection";
