@@ -62,3 +62,14 @@ Only publish add-on files that have been tested against the stated Minecraft Bed
 
 No license has been specified yet. All rights remain with their respective authors unless a license is added.
 
+
+## Deploy to Netlify
+
+The project is configured for the official Netlify TanStack Start adapter. To enable automatic production deployments:
+
+1. Open the [Netlify dashboard](https://app.netlify.com/start) and choose **Add new project** → **Import an existing project**.
+2. Connect GitHub and select `w3356jchooks-cloud/Hypermise`.
+3. Keep the repository root as the base directory. The checked-in `netlify.toml` supplies the build and publish settings.
+4. Deploy the site. Netlify will then build and publish future commits pushed to `main`.
+
+GitHub Actions independently runs install, formatting, lint, tests, and a production build on pushes and pull requests. A passing CI run does not itself mean a Netlify site has been connected or deployed.
